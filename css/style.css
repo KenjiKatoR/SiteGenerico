@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #B2BF80;
+	font-family: arial, sans-serif;
+	font-size: 10px;
+}
+
+ul#menu{
+	background-color: #82A633;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+}
+
+#menu li{
+	display: inline;
+	line-height: 60px;
+}
+
+#menu a:link, a:visited{
+	color: #2C4001;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+	padding: 22px;
+	font-size: 1.6rem;
+
+}
+
+#menu a:hover, a:active{
+	background-color: #8CA653;
+
+}
+
+#home{
+	background-image: url(../images/3.jpg);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	margin-bottom: 30px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#about{
+	background-color: #B2BF80;
+	height: 100vh;
+	padding: 50px;
+	font-size: 1.6rem;
+	color: #112506;
+	line-height: 2.5rem;
+}
+
+#photos{
+	background-color: #8CA653;
+	color: #112506;
+	padding: 50px;
+	font-size: 1.6rem;
+	text-align: center;
+}
+
+
+.img{
+	width: 300px;
+	margin: 30px;
+	border: 2px solid #112506;
+	border-radius: 20px;
+	box-shadow: 10px 10px 25px #112506;
+}
+
+#contact{
+	background-color: #8CA653;
+	color: #112506;
+	padding: 50px;
+	font-size: 1.6rem;
+	text-align: center;
+	height: 100vh;
+}
+
+#contact label{
+	display: block;
+	margin-top: 20px;
+}
+
+#contact input, textarea{
+	width: 400px;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 1.2rem;
+	margin-bottom: 2px;
+	border: none;
+}
+
+#contact button{
+	display: block;
+	background-color: #000;
+	color: #fff;
+	font-size: 1.4rem;
+	padding: 10px 50px;
+	border-radius: 10px;
+	border: 0;
+	margin-top: 20px;
+}
+
+#contact button:hover{
+	background-color: #303030;
+	cursor: pointer;
+}
+footer{
+	background-color: #82A633;
+	text-align: center;
+	padding: 20px;
+	font-size: 1.1rem;
+}
